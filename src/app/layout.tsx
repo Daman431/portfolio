@@ -6,6 +6,7 @@ import Head from 'next/head'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://heydaman.com'),
   openGraph: {
     title: 'Daman Sharma',
     description: 'Portfolio Coming Soon',
